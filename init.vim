@@ -17,7 +17,8 @@ let g:hostname_vim_path = g:vim_path . 'host/' . g:hostname . '.vim'
 " The only time we'll need a bare execute, helpers includes a function 'Require' which hides all this mess.
 execute 'source' g:vim_path . 'helpers.vim'
 
-" Load Plugin Manager
+" Load Plugin Manager 
+" NOTE: I'm just embedding the whole damn thing here, this probably should be a submodule or some such.
 call Require('plug.vim')
 call plug#begin(g:vim_plug_path)
 

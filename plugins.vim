@@ -1,3 +1,6 @@
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-commentary'
+Plug 'jremmen/vim-ripgrep'
+Plug 'godlygeek/tabular'
+Plug 'michaeljsmith/vim-indent-object'
