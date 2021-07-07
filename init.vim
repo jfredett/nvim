@@ -9,6 +9,11 @@ if has('win32')
     let g:vim_plug_path = g:vim_path . 'plugged/'
     set runtimepath+=S:/Dropbox/code/nvim/
     set rtp+=S:/Dropbox/code/nvim/
+elseif has('unix')
+    let g:vim_path = "/storage/Dropbox/code/nvim/"
+    let g:vim_plug_path = g:vim_path . 'plugged/'
+    set runtimepath+=/storage/Dropbox/code/nvim
+    set rtp+=/storage/Dropbox/code/nvim/
 endif
 
 " The path to the specific overrides for this machine, may or may not exist.
